@@ -1,0 +1,116 @@
+﻿<Cars>
+	<Category>
+		<Name>Samochody osobowe</Name>
+		<Description>Różne rodzaje samochodów osobowych</Description>
+		<SubCategory>
+			<Name>Toyota</Name>
+			<ParentCategory>Samochody</ParentCategory>
+			<Description>Japońska marka samochodów</Description>
+			<Car>
+				<Model>Corolla</Model>
+				<Year>2020</Year>
+				<EngineCapacity>1.8</EngineCapacity>
+				<DriveType>FWD</DriveType>
+			</Car>
+			<Car>
+				<Model>Yars</Model>
+				<Year>2019</Year>
+				<EngineCapacity>1.0</EngineCapacity>
+				<DriveType>RWD</DriveType>
+			</Car>
+		</SubCategory>
+		<SubCategory>
+			<Name>Honda</Name>
+			<ParentCategory>Samochody</ParentCategory>
+			<Description>Japońska marka samochodów</Description>
+			<Car>
+				<Model>Civic</Model>
+				<Year>2021</Year>
+				<EngineCapacity>1.5</EngineCapacity>
+				<DriveType>FWD</DriveType>
+			</Car>
+			<Car>
+				<Model>Accord</Model>
+				<Year>2018</Year>
+				<EngineCapacity>2.0</EngineCapacity>
+				<DriveType>FWD</DriveType>
+			</Car>
+		</SubCategory>
+	</Category>
+	<Category>
+		<Name>Samochody Dostawcze</Name>
+		<Description>Różne rodzaje samochodów dostawczych</Description>
+		<SubCategory>
+			<Name>Ford</Name>
+			<ParentCategory>Samochody Dostawcze</ParentCategory>
+			<Description>Amerykańska marka samochodów</Description>
+			<Car>
+				<Model>Transit</Model>
+				<Year>2018</Year>
+				<EngineCapacity>2.0</EngineCapacity>
+				<DriveType>RWD</DriveType>
+			</Car>
+			<Car>
+				<Model>Transit Connect</Model>
+				<Year>2020</Year>
+				<EngineCapacity>1.5</EngineCapacity>
+				<DriveType>FWD</DriveType>
+			</Car>
+		</SubCategory>
+		<SubCategory>
+			<Name>Mercedes-Benz</Name>
+			<ParentCategory>Samochody Dostawcze</ParentCategory>
+			<Description>Niemiecka marka samochodów</Description>
+			<Car>
+				<Model>Sprinter</Model>
+				<Year>2019</Year>
+				<EngineCapacity>2.1</EngineCapacity>
+				<DriveType>RWD</DriveType>
+			</Car>
+			<Car>
+				<Model>Vito</Model>
+				<Year>2021</Year>
+				<EngineCapacity>2.0</EngineCapacity>
+				<DriveType>FWD</DriveType>
+			</Car>
+		</SubCategory>
+	</Category>
+	<Category>
+		<Name>Motory</Name>
+		<Description>Różne rodzaje motocykli</Description>
+		<SubCategory>
+			<Name>Triumph</Name>
+			<ParentCategory>Motory</ParentCategory>
+			<Description>Brytyjska marka motocykli</Description>
+			<Car>
+				<Model>Bonneville</Model>
+				<Year>2021</Year>
+				<EngineCapacity>1.2</EngineCapacity>
+				<DriveType>Łańcuch</DriveType>
+			</Car>
+			<Car>
+				<Model>Speed Triple</Model>
+				<Year>2020</Year>
+				<EngineCapacity>1.1</EngineCapacity>
+				<DriveType>Łańcuch</DriveType>
+			</Car>
+		</SubCategory>
+		<SubCategory>
+			<Name>Ducati</Name>
+			<ParentCategory>Motory</ParentCategory>
+			<Description>Włoska marka motocykli</Description>
+			<Car>
+				<Model>Panigale V4</Model>
+				<Year>2022</Year>
+				<EngineCapacity>1.1</EngineCapacity>
+				<DriveType>Łańcuch</DriveType>
+			</Car>
+			<Car>
+				<Model>Monster</Model>
+				<Year>2021</Year>
+				<EngineCapacity>0.937</EngineCapacity>
+				<DriveType>Łańcuch</DriveType>
+			</Car>
+		</SubCategory>
+	</Category>
+</Cars>
